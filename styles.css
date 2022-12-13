@@ -24,6 +24,12 @@ img {
   bottom: 30px;
 }
 
+@media (max-width: 520px) {
+  .whatsapp-wrapper {
+    bottom: 15px;
+  }
+}
+
 .whatsapp-wrapper a {
   display: block;
   margin-left: auto;
@@ -46,7 +52,6 @@ img {
 @media (max-width: 520px) {
   .whatsapp-icon {
     width: 50px;
-    margin-bottom: 15px;
   }
 }
 
