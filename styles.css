@@ -16,3 +16,39 @@ img {
   max-width: 1200px;
   margin: auto;
 }
+
+
+.whatsapp-wrapper {
+  position: sticky;
+  left: 30px;
+  bottom: 30px;
+}
+
+.whatsapp-wrapper a {
+  display: block;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 80px;
+}
+
+@media (max-width: 520px) {
+  .whatsapp-wrapper a {
+    margin-right: 15px;
+    width: 50px;
+  }
+}
+
+.whatsapp-icon {
+  fill: #25D366;
+  width: 80px;
+}
+
+@media (max-width: 520px) {
+  .whatsapp-icon {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+
+
